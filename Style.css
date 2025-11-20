@@ -1,0 +1,49 @@
+.A .background{
+    position: absolute;
+    width: 1477px;
+    height: 831gpx;
+    right: 0;
+    top: 0px;
+    z-index: -1;
+
+    box-sizing: content-box;
+}
+
+
+
+
+.box{
+    opacity: 0.7;
+    border-radius: 50px;
+    background-color: gray;
+    position: absolute;
+    width: 27cm;
+    height: 15cm;
+    top: 3cm;
+    right: 4.5cm;
+}
+.box img{
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 800px;
+    bottom: 400px;
+    border-radius: 50%;
+    border: 2px solid #252d5d;
+}
+.box .speech{
+    opacity: 1;
+    color: white;
+    position: relative;
+    left: 30px;
+    top: 5px;
+}
+
+.box .Buttons{
+    color: white;
+    position: relative;
+    width: 300px;
+    height: 200px;
+    left: 100px;
+    bottom: 5cm;
+}
