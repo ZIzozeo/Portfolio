@@ -1,12 +1,18 @@
-.A .background{
-    position: absolute;
-    width: 1477px;
-    height: 831gpx;
-    right: 0;
-    top: 0px;
-    z-index: -1;
-
-    box-sizing: content-box;
+* {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.A {
+    width: 100vw;
+    height: 100vw;
+    overflow: hidden;
+}
+.background{
+    position: relative;
+    width: 100vw;
+    height: 57vw;
+    bottom: 10px;
 }
 
 
@@ -17,17 +23,22 @@
     border-radius: 50px;
     background-color: gray;
     position: absolute;
-    width: 27cm;
-    height: 15cm;
-    top: 3cm;
-    right: 4.5cm;
+    width: 65vw;
+    height: 25vw;
+    top: 10vw;
+    right: 15vw;
+    overflow: hidden;
+}
+h1 {
+    left: 350px;
+    position: relative;
 }
 .box img{
     height: 200px;
     width: 200px;
     position: relative;
-    left: 800px;
-    bottom: 400px;
+    left: 50vw;
+    bottom: 15vw;
     border-radius: 50%;
     border: 2px solid #252d5d;
 }
